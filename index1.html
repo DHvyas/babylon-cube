@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Babylon.js Cube with Functionality</title>
+    <style>
+      #renderCanvas {
+    width: 100%;
+    height: calc(100% - 30px);
+    touch-action: none;
+  }
+
+  #resetButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+    </style>
+  </head>
+  <body>
+    <canvas id="renderCanvas"></canvas>
+    <button id="resetButton">Reset</button>
+    <script src="https://cdn.babylonjs.com/babylon.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
