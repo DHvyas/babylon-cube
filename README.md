@@ -18,6 +18,7 @@ To run Babylon Cube locally on your machine, follow these steps:
 
 - Click on any face of the cube to select it.
 - Drag the selected face to extrude it.
+- Click 'R' on your keyboard to reset the selected face.
 - Use the reset button to revert the cube to its original state.
 
 ## Credits
